@@ -1,0 +1,102 @@
+<!--Copyright Malin Larsson 2022-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Matbloggen</title>
+</head>
+
+<body>
+    <header>
+        <!--Navigeringsbaren-->
+        <div id="wrapper_header">
+            <span class="logo">
+                <a href="index.html">Matbloggen</a>
+            </span>
+            <!--Dynamisk meny-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="bloggen.html">Bloggen</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Banner-->
+            <img src="images/banner.jpg" alt="flera olika små maträtter">
+    </header>
+    <main>
+        <!--Huvudinnehåll för sida-->
+        <section class="maincontent">
+            <h1>Senaste inläggen</h1>
+        </section>
+
+        <!--Wrapper för posts och sidebar-->
+        <div class="wrapper_main">
+            <!--posts-->
+            <section class="posts_blog">
+                <!--Dynamiskt innehåll, senaste inläggen-->
+                <article>
+                    <h2>Laxgratäng med räkor</h2> <!--Nyhetstitel-->
+                    <!--Nyhetsinnehåll-->
+                    <img src="images/salmon.jpg" alt="laxfiléer på en plåt med citron, vitlök och timjan">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua</p>
+                    
+                    <p class="timestamp">20 april, kl 20:15</p>
+                    <p class="author">Malin Larsson</p>
+                </article>
+                <article>
+                    <h2>Vegetarisk pasta</h2>
+                    <img src="images/pasta.jpg" alt="vegetarisk spagetti på tre tallrikar och två glas rödvin">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua</p>
+                    
+                    <p class="timestamp">20 april, kl 20:15</p>
+                    <p class="author">Malin Larsson</p>
+                </article>
+            </section>
+            
+            <!--Dynamisk sidebar-->
+            <aside>
+                <h2>Kategorier</h2>
+                <nav>
+                    <ul> <!--Lista alla kategorier-->
+                        <li><a href="#">Fisk</a></li>
+                        <li><a href="#">Tacos</a></li>
+                        <li><a href="#">Gratänger</a></li>
+                        <li><a href="#">Köttfärs</a></li>
+                        <li><a href="#">Veckomatsedel</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+
+    </main>
+
+    <!--Sidot-->
+    <footer>
+        <span class="copyright">&copy; Matbloggen 2022</span>
+        <nav> <!--Dynamisk navigering-->
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="bloggen.html">Bloggen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
