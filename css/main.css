@@ -196,6 +196,7 @@ main img {
 }
 .posts_start .readmore {
     display: block;
+    max-width: 250px;
     width: 85%;
     background: #487747;
     color: #fff;
@@ -203,7 +204,6 @@ main img {
     text-align: center;
     margin: 1.5em auto 1em;
     padding: 0.3em 0;
-
 }
 
 /*Bloggsidan*/
@@ -270,3 +270,96 @@ aside nav ul li {
 .posts_blog article .author {
     color: grey;
 }
+
+@media only screen and (max-width:1150px) {
+
+    main {
+        width: 95%;
+    }
+
+    .posts_start {
+        display: block;
+    }
+
+    .posts_start article {
+        max-width: 800px;
+        width: 90%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+        margin: 1% auto 5%;
+        padding: 1% 0;
+    }
+
+    .wrapper_main {
+        display: block;
+    }
+
+    aside {
+        max-width: 800px;
+        width: 100%;
+        min-height: 0px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+        margin: 5em auto;
+        padding: 2em 0;
+
+    }
+    aside nav {
+        margin: 3em 0;
+        text-align: center;
+    }
+
+    aside nav ul li {
+        margin-bottom: 2em;
+    }
+
+    header nav a {
+        font-size: 1.2rem;
+    }
+
+  }
+
+  @media only screen and (max-width:800px) {
+  
+    header nav a {
+        font-size: 1rem;
+    }
+
+    .logo a{
+        font-size: 3em;
+    }
+
+  }
+
+  @media only screen and (max-width:700px) {
+
+    header {
+        text-align: center;
+    }
+  
+    #wrapper_header {
+        display: block;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 2.8em;
+    }
+    h4 {
+        font-size: 2.5em;
+    }
+    h5 {
+        font-size: 2.2em;
+    }
+    h6 {
+        font-size: 2.1em;
+    }
+    p {
+        font-size: 2em;
+    }
+
+
+  }
